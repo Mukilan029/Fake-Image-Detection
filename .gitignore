@@ -1,0 +1,19 @@
+# Ignore the dataset folders (too big)
+dataset/
+dataset_ela/
+
+# Ignore the heavy model files
+models/
+*.h5
+
+# Ignore Python system files
+__pycache__/
+*.pyc
+
+# Ignore the virtual environment (if you have one)
+venv/
+env/
+.env
+
+# Ignore VS Code settings
+.vscode/
